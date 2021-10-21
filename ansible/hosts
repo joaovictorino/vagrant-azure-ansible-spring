@@ -1,10 +1,4 @@
-[mysqlserver]
-mysqlserver
-
-[springapp]
-springapp
-
-[app:children]
+[app]
 mysqlserver
 springapp
 
